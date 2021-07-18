@@ -113,6 +113,8 @@
     <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon20.png">
       <Visible>false</Visible>
     </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\xamagon.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\xamagon.imageset\xamagon.png" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -132,5 +134,8 @@
       <Project>{60AC31AE-59A0-47BA-AEA6-CB2638F611DB}</Project>
       <Name>XamarinApp1</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Assets.xcassets\xamagon.imageset\" />
   </ItemGroup>
 </Project>
